@@ -1,2 +1,2 @@
-# banking-churn-prediction-aws-sagemaker
-banking churn prediction using aws sagemaker
+# Banking Churn Prediction Using AWS Sagemaker
+* Banking churn prediction using AWS Sagemaker
