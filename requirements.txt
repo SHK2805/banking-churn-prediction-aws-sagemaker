@@ -4,3 +4,4 @@ scikit-learn
 panadas
 numpy
 ipykernel
+boto3
