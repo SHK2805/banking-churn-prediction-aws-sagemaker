@@ -1,0 +1,6 @@
+kaggle
+sagemaker
+scikit-learn
+panadas
+numpy
+ipykernel

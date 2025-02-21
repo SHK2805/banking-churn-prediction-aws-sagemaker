@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/.conda
+/.idea
+data/.DS_Store
+data/raw/.DS_Store
