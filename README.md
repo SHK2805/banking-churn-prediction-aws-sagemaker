@@ -83,3 +83,15 @@ pip install kaggle
 * Perform the EDA 
 * Split the data into train and test sets
 * Save them as csv files in `data/processed`
+* Use column transformer to transform the data
+* Save the column transformer as a pickle object
+* We can use the saved pre-processing pickle object for the below purposes
+  * Data Transformation for New Data: 
+    * Whenever you get new data that needs to be transformed in the same way as your training data, you can use the saved column transformer. This ensures consistency in data processing.
+  * Model Deployment: 
+    * When deploying your model in a production environment, you'll need the same column transformer to preprocess incoming data before making predictions. This is crucial to maintain the accuracy of your model.
+  * Cross-Validation and Testing: 
+    * If you perform cross-validation or test your model on different subsets of data, you'll need to apply the same transformations to ensure that the data is treated consistently.
+  * Reproducibility:
+    * In research or iterative development, using the saved transformer allows you to replicate your experiments accurately. 
+    * This is essential for verifying your results and maintaining the integrity of your work.
