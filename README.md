@@ -78,4 +78,8 @@ pip install kaggle
 * Give the userdetails, access key and secret access key
 
 ## Project Steps
-#### Data Ingestion
+* Get the data into the `data/raw` folder
+* Read the data into dataframes
+* Perform the EDA 
+* Split the data into train and test sets
+* Save them as csv files in `data/processed`
